@@ -1,0 +1,89 @@
+
+vivek@vivek MINGW64 ~
+$ pwd
+/c/Users/vivek
+
+vivek@vivek MINGW64 ~
+$ mkdir Demo
+
+vivek@vivek MINGW64 ~
+$ cd Demo
+
+vivek@vivek MINGW64 ~/Demo
+$ pwd
+/c/Users/vivek/Demo
+
+vivek@vivek MINGW64 ~/Demo
+$ ls
+
+vivek@vivek MINGW64 ~/Demo
+$ notepad demofile.txt
+
+vivek@vivek MINGW64 ~/Demo
+$
+
+vivek@vivek MINGW64 ~/Demo
+$ notepad demofile3.txt
+
+vivek@vivek MINGW64 ~/Demo
+$ notepad demofile2.txt
+
+vivek@vivek MINGW64 ~/Demo
+$ notepad demofile3.txt
+
+vivek@vivek MINGW64 ~/Demo
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+
+vivek@vivek MINGW64 ~/Demo
+$ git config --global user.name "Vivek6382"
+
+vivek@vivek MINGW64 ~/Demo
+$ git config --global user.email "2k21cse185@kiot.ac.in"
+
+vivek@vivek MINGW64 ~/Demo
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Vivek6382
+user.email=2k21cse185@kiot.ac.in
+
+vivek@vivek MINGW64 ~/Demo
+$ git init
+Initialized empty Git repository in C:/Users/vivek/Demo/.git/
+
+vivek@vivek MINGW64 ~/Demo (master)
+$ ls
+demofile.txt  demofile2.txt  demofile3.txt
+
+vivek@vivek MINGW64 ~/Demo (master)
+$ ls -a
+./  ../  .git/  demofile.txt  demofile2.txt  demofile3.txt
+
+vivek@vivek MINGW64 ~/Demo (master)
+$
